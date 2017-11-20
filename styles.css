@@ -26,4 +26,19 @@
 	
 }
 
+.felxy{
+	display: flex;
+	background-color: #ff6833;
+	width: 100%;
+}
+
+.flexy>div {
+  background-color: black;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  float: left;
+	
+}
+
 body {margin:0;}
