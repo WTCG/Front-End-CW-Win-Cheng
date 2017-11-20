@@ -1,0 +1,29 @@
+.navigation {
+	float: left;
+	background-color: #33ffc0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigation a {
+  float: left;
+  display: block;
+  color: #e600e6;
+  text-align: center;
+  padding: 13px 16px;
+  font-family: 'Alegreya SC';
+  font-size: 20px;
+}
+
+.mainbody {
+	padding: 16px;
+	margin-top: 40px;
+}
+
+.setter {
+	background-color: #ffb533;
+	
+}
+
+body {margin:0;}
