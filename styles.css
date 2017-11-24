@@ -69,6 +69,17 @@ div.info5 {
   color: white;
 }
 
+.info {
+	 opacity: 0;
+  transition: opacity 1s;
+	
+}
+
+.info.visible {
+	
+	opacity: 1;
+}
+
 div.sect p {
 	/* Box style */
   background-color: rgba (255,255,255, .5);
@@ -107,6 +118,7 @@ div.scroll {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 
 .part{
 	background-color: #20214b;
