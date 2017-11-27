@@ -6,9 +6,7 @@
 <head>
 
 </head>
-
 <body>
-
 
 <div class="nav" id="navigation">
 <a href="#homeSection">Home</a>
@@ -20,12 +18,10 @@
 </div>
 
 
-
 <div id="homeSection" class="sect sectionOne"> 
  <p>Welcome to this webpage</p>
-  <div class="scroll"> This page are for users to look and borow ideas, this
-     is a start up webpage and it is a trial to see how many people will be interested
-     in these types of webpages.
+  <div class="Popup1"> 
+  
   </div>
 </div>
 
@@ -33,23 +29,45 @@
 
 <div id="ideasSection" class="sect sectionTwo">
   <div class="t1"> Latest Updates  </div>
-    <div class="info1"> Img Box </div>
-	<div class="info2"> Img Box </div>
-	<div class="info3"> Img Box </div>
-	<div class="info4"> Img Box </div>
-	<div class="info5"> Img Box </div>
+    <div class="info1"> <img src="images/NewYork.jpg" style="width: 300px; height:400px;"> </div>
+	<div class="info2"> <img src="images/Shanghai.jpg" style="width:300px; height:400px;"> </div>
+	<div class="info3"> <img src="images/JapFuji.jpg" style="width:300px; height:400px;"> </div>
+	<div class="info4"> <img src="images/Egypt.jpg" style="width:300px; height:400px;"> </div>
+	<div class="info5"> <img src="images/Iceland.jpg" style="width:300px; height:400px;"> </div>
 </div>
 
 <div class="part"></div>
-<div id="contactSection" class="sect sectionThree"></div>
+<div id="contactSection" class="sect sectionThree">
+  <div id= "title3"> Map!!! </div>
+   <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+     <div id="map"></div>
+
+</div>
+
 <div class="part"></div>
+
 <div id="aboutSection" class="part"></div>
-<div id="membersSection" class="sect sectionFour"></div>
+
+<div id="membersSection" class="sect sectionFour">
+  
+    <div class = "item11"> 
+	Image1
+    </div>
+	<div class = "item12"> 
+	Image2
+    </div>
+	<div class = "item13"> 
+	Image3
+    </div>
+</div>
+
+
 
 </body>
 
-
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLpy41IrjPTnIXEl1r4AGsqcM2UJrxyk0&libraries=places&callback=initAutocomplete"
+         async defer></script>
+<!--API key - AIzaSyCLpy41IrjPTnIXEl1r4AGsqcM2UJrxyk0 -->
 <script src="lib/jquery-3.2.1.min.js"></script>
 <script	src="lib/app.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
