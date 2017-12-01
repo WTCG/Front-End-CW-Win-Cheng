@@ -73,7 +73,7 @@ header a:hover {
 
 #content {
 	min-height: 600px;
-	background: url('images/milky3.jpg') no-repeat 0 -300px;
+	background: url('images/milky3.jpg') no-repeat 0 -200px;
 }
 
 #content h1{
@@ -133,8 +133,8 @@ header a:hover {
 #scroll {
 	max-width: 100%;
 	overflow: hidden;
-	text-align:center;
 	font-size:15px;
+	text-align: center;
 	background: url('images/milkyway.jpg');
 }
 #scroll h5 {
@@ -146,7 +146,7 @@ header a:hover {
 }
 
 #scroll .box{
-	float:left;
+	float: left;
 	padding: 7px;
 	width: 30%;
 	color: white;	
@@ -154,7 +154,8 @@ header a:hover {
 	border: 3px solid #1D0F56;
 }
 #scroll .box img {
-	width:100%;
+  width: 100%;
+  height: 400px;
 }
 
 #scroll p {
@@ -163,17 +164,13 @@ header a:hover {
 	background: #2B6673;
 }
 
-
-
-
-
 footer {
 	text-align: center;
+	height: 40px;
 }
 
-/* about page */
+/* about.page */
 /* google maps  */
-
 	  
 #title3 {
   position: absolute;
