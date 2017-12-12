@@ -4,7 +4,7 @@ body {
 	line-height:1.5;
 	padding:0;
 	margin:0;
-	background-color:#0D8D96;
+	background-color:#124b7a;
 	color: #E8EFF9;
 }
 
@@ -32,6 +32,7 @@ nav a {
 	font-size: 20px;
 	font-weight: bold;
 	background-color: #35333d;
+	border-radius: 3px;
 }
 
 header a:hover {
@@ -125,6 +126,13 @@ header #logo h1{
 	padding-left: 15px;
 	padding-right: 15px;
 	color: #D6CEE4;
+	transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.button1:hover {
+	background: #ff7b29;
 }
 
 #boxes{
@@ -187,18 +195,20 @@ header #logo h1{
 
 footer {
 	text-align: center;
-	height: 40px;
+	background-color: #08032a;
+	margin: auto;
+	height: 75px;
 }
 
 /* about.page */
 /* google maps  */
 	  
-#title3 {
+#mapTitle {
   text-align: center;
   font-size: 30px;
   color: white;
   width: 100%;
-  overflow: hidden;
+  background-color: #172a43;
   padding: 15px;
 }
 
@@ -213,14 +223,14 @@ footer {
 
 #pac-input {
 	left: 50%;
-	height: 10%;
+	height: 7%;
 	text-align:center;
 }   
 
 .underMap {
 	width: 100%;
 	height: 200px;
-	background-color: #2640E0;
+	background-color: #172a43;
 }
 
 
@@ -242,6 +252,23 @@ footer {
 }
 
 /* NASA POD*/
+.pod {
+	text-align: center;
+	width: 100%;
+	font-size: 17px;
+	background: #064657;
+}
 
+#copyright{
+	text-align: center;
+}
+
+#apod_title{
+	font-size: 16px;
+}
+
+#apod_explaination{
+	font-size: 15px;
+}
 
 
