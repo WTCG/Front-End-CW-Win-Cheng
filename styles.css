@@ -4,41 +4,23 @@ body {
 	line-height:1.5;
 	padding:0;
 	margin:0;
-	background-color:#124b7a;
-	color: #E8EFF9;
+	background-color: black;
+	color: white;
 }
 
 /* navigation */
-nav {
+header{
+	background: url("images/milky3.jpg");
 	width: 100%;
-	margin: 20px;
-	display: inline;
-	text-align: center;
+	color: #fffffff;
+	top: 0;
+	left: 0;
+	min-height: 70px;
+	border-bottom: #5C2C03 5px solid;
+	z-index: 100;
+	font-size: 18px;
 }
 
-nav li {
-	float: right;
-	padding: 10px;
-	list-style: none;
-	top: 50px;
-}
-
-nav a {
-	text-decoration: none;
-}
-
-.current a{
-	color:#d6d1eb;
-	font-size: 20px;
-	font-weight: bold;
-	background-color: #35333d;
-	border-radius: 3px;
-}
-
-header a:hover {
-	color: #F1798C;
-	font-weight: bold;
-}
 
  /* container of index */
 .container{
@@ -51,29 +33,13 @@ header a:hover {
 	color: white;
 }
 
-header{
-	background: url("images/milky3.jpg");
-	width: 100%;
-	color: #fffffff;
-	padding-top: 30px;
-	min-height: 70px;
-	border-bottom: #5C2C03 5px solid;
-}
+
 
 header h1{
 	text-align: center;
 }
 
 
-header #logo {
-	text-align: center;
-	
-}
-
-span {
-	background-color: #1a1626;
-
-}
 
 header #logo h1{
 	margin: 0;
@@ -81,22 +47,21 @@ header #logo h1{
 
 
 #content {
-	min-height: 600px;
+	overflow: hidden;
 	background: url('images/milky3.jpg') no-repeat 0 -200px;
 }
 
 #content h1{
 	color: white;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 50px;
 	font-size: 40px;
-	margin-bottom:10px;
 }
 #content p {
 	font-size: 20px;
 	text-align: center;
 }
-
+/*send us your email area */
 #infobox {
 	padding: 7px;
 	color: white;
@@ -116,7 +81,7 @@ header #logo h1{
 #infobox input[type="email"]{
 	padding: 3px;
 	height: 31px;
-	width: 230px;
+	width: 300px;
 }
 
 .button1{
@@ -135,8 +100,9 @@ header #logo h1{
 	background: #ff7b29;
 }
 
-#boxes{
-	margin-top: 20px;
+#boxes {
+	width: 100%;
+	background-color: #2E3F57;
 }
 
 #boxes .box{
@@ -144,6 +110,10 @@ header #logo h1{
 	width: 30%;
 	padding: 5px;
 	text-align: center;
+}
+
+#boxes .box p {
+	font-size: 17px;
 }
 
 #scroll {
@@ -184,7 +154,6 @@ header #logo h1{
 
 #scroll .box img:hover {
 	-webkit-filter:blur(0px);
-
 }
 
 #scroll p {
@@ -195,9 +164,6 @@ header #logo h1{
 
 footer {
 	text-align: center;
-	background-color: #08032a;
-	margin: auto;
-	height: 75px;
 }
 
 /* about.page */
@@ -236,10 +202,68 @@ footer {
 
 /* breakpoints */
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:2000px){
+ul {
+	list-style: none;
+
+}
+
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #c0c6ee;
+}
+
+nav {
+	float: right;
+	padding: 20px;
+	font-family: "Open sans", sans-serif;
+}
+
+}
+
+@media screen and (max-width:700px){
+
+nav {
+	float: left;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	width: 75%;
+
+}
+
+li {
+	width: 100%;
+	background-color: black;
+	border: 1px solid white;
+}
+
+	
+}
+
+@media screen and (max-width:800px){
 #boxes{
-		background-color: #2E3F57;
+		background-color: #805196;
 	}
+	
+	#boxes .box {
+		width: 100%;
+	}
+	
 	#scroll .box {
 		width:90%;
 		
@@ -250,6 +274,7 @@ footer {
 		-webkit-filter:blur(0px);
 	}
 }
+
 
 /* NASA POD*/
 .pod {
