@@ -23,10 +23,11 @@ Designing the Webpage to look presentable. Small Transitions,
  
 CSS hover effects – blur effects, highlight colours
 
-JavaScript – Google API (Markers and Search Bar)[Reference: https://developers.google.com/maps/], 
+JavaScript – Google API (Sucessfully put in Markers and used the idea of Search Bar)[Reference: https://developers.google.com/maps/], 
 NASA API (Picture of the Day) [Reference: https://api.nasa.gov/index.html#live_example]
 
-
+Modal Effect - About page which is telescope around the world has an affect which let image go full screen like a pop up. 
+I used W3chool to help me when using this effect.
 -----------------------------
 Unsuccessful Implementations:
 -----------------------------
@@ -36,3 +37,10 @@ JavaScript: Creating a game was difficult. I was learning from YouTube, but some
  I left a folder called New folder this has all the JS, CSS, and Index page for it. 
 
 CSS Flex – Tried to use Flex with my image but probably I don’t understand it to well in order to make it work. 
+
+--------------------
+correcting problems:
+--------------------
+
+API and Modal Effect Conflict - The problem is that the api had same naming conventions. I tried my bes to solve the issues but nothing was working.
+I had to make another javascript file called appcss.js to put in the modal effectjs. This was a workaround.
