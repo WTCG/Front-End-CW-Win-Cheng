@@ -8,9 +8,8 @@ Introduction:
 
 The website required a few drafts to get right.
 It started off as a scrolling page which had random information. 
-When the first draft was done it was quite basic, 
-so I thought up what type of information I like in my website and it was space.
-I started to mix up the pages with scrolling and animation effects.
+Then it clicked that something intresting I wanted to do was space.
+
 
 ---------------------------
 Successful Implementations:
@@ -26,8 +25,11 @@ CSS hover effects – blur effects, highlight colours
 JavaScript – Google API (Sucessfully put in Markers and used the idea of Search Bar)[Reference: https://developers.google.com/maps/], 
 NASA API (Picture of the Day) [Reference: https://api.nasa.gov/index.html#live_example]
 
-Modal Effect - About page which is telescope around the world has an affect which let image go full screen like a pop up. 
+Modal-effect - About page which is telescope around the world has an affect which let image go full screen like a pop up. 
 I used W3chool to help me when using this effect.
+
+Text Box JavaScript Validation - This JavaScript allows to validate whether there is text within a text box or not and if not it will show an error.
+I used reference: https://www.w3schools.com/js/js_validation.asp - to help me in my work. I test run it using their server before i implement it in my work.
 -----------------------------
 Unsuccessful Implementations:
 -----------------------------
@@ -38,7 +40,7 @@ JavaScript: Creating a game was difficult. I was learning from YouTube, but some
 
 CSS Flex – Tried to use Flex with my image but probably I don’t understand it to well in order to make it work. 
 
-Accesibility - I wanted the pages to go into a colour blind mode but I didn't 
+Accesibility - I wanted the pages to go into a colour blind mode but there were some problems finding sources to help myself.
 --------------------
 correcting problems:
 --------------------

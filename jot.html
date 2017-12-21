@@ -23,8 +23,22 @@
 	</header>
 	
 	
+	<section id ="joinUs">
 	
+	  <form name="signUp" action="/action_page.php"
+	  onsubmit="return validateForm()" method="post">
+	  
+	  Username: <input type="text" name="firstname">
+	  </form>
+
+	  <form name="E-mail" action="/action_page.php"
+	  onsubmit="return validateForm()" method="post">
+	  
+	  E-mail: <input type="text" name="email">
+	  <input type="submit" value="Submit">
+	  </form>
 	
+	</section>
 	
 	
     <footer>
@@ -32,4 +46,5 @@
 	</footer>
 </body>
 
+<script	src="lib/appcss.js"></script>
 <link rel="stylesheet" href="styles.css">
