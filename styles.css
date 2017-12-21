@@ -196,6 +196,8 @@ footer {
 .underMap {
 	width: 100%;
 	overflow: hidden;
+	text-align: center;
+	font-size: 18px;
 }
 
 .underMap .telescope img {

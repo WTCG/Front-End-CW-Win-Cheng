@@ -38,6 +38,7 @@ JavaScript: Creating a game was difficult. I was learning from YouTube, but some
 
 CSS Flex – Tried to use Flex with my image but probably I don’t understand it to well in order to make it work. 
 
+Accesibility - I wanted the pages to go into a colour blind mode but I didn't 
 --------------------
 correcting problems:
 --------------------
