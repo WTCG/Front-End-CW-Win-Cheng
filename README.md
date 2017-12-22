@@ -8,8 +8,10 @@ Introduction:
 
 The website required a few drafts to get right.
 It started off as a scrolling page which had random information. 
-Then it clicked that something intresting I wanted to do was space.
+![picture](img/draft1.jpg)
 
+Then it clicked what was something interesting that I wanted to do was space.
+![picture](img/draft2.jpg)
 
 ---------------------------
 Successful Implementations:
