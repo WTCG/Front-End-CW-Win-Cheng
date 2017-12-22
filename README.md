@@ -13,6 +13,8 @@ It started off as a scrolling page which had random information.
 Then it clicked what was something interesting that I wanted to do was space.
 ![picture](img/draft2.jpg)
 
+Draft 1 showed what I did but felt like not enough was in there. So i remade the website
+with my past experienced and hopefully draft 2 is better.
 ---------------------------
 Successful Implementations:
 ---------------------------
