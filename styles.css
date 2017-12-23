@@ -390,4 +390,67 @@ li {
 	font-size: 15px;
 }
 
+/* Join our Team html page*/
 
+#reasons {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	border: 3px solid grey;
+	border-radius: 5px;
+	padding: 10px;
+
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 3px solid black;
+	box-sizing: border-box;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	resize: vertical;
+	color: black;
+}
+
+input[type=submit] {
+	background-color: #253FDE;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #AEB6E4;
+}
+
+#joinUs {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	width: 70%;
+	padding: 20px;
+	color: black;
+	margin: auto;
+}
+
+.thanks {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: relative;
+	
+	
+	animation-name: animate;
+	animation-duration: 4s;
+	animation-direction: reverse;
+}
+
+@keyframes animate {
+	0% {background-color:red; left:0px; top:0px;}
+	25% {background-color:yellow; left:200px; top:0px;}
+	50% {background-color:blue; left:200px; top:200px;}
+	75% {background-color:green; left:0px; top:200px;}
+	100% {background-color:red; left:0px; top:0px;}
+}

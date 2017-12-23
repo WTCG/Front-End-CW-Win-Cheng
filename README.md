@@ -8,13 +8,14 @@ Introduction:
 
 The website required a few drafts to get right.
 It started off as a scrolling page which had random information. 
-![picture](img/draft1.jpg)
+![picture](https://github.com/WTCG/Front-End-CW-Win-Cheng/blob/master/images/draft1.jpg)
 
 Then it clicked what was something interesting that I wanted to do was space.
-![picture](img/draft2.jpg)
+![picture](https://github.com/WTCG/Front-End-CW-Win-Cheng/blob/master/images/draft2.jpg)
 
 Draft 1 showed what I did but felt like not enough was in there. So i remade the website
 with my past experienced and hopefully draft 2 is better.
+
 ---------------------------
 Successful Implementations:
 ---------------------------
@@ -34,6 +35,7 @@ I used W3chool to help me when using this effect.
 
 Text Box JavaScript Validation - This JavaScript allows to validate whether there is text within a text box or not and if not it will show an error.
 I used reference: https://www.w3schools.com/js/js_validation.asp - to help me in my work. I test run it using their server before i implement it in my work.
+
 -----------------------------
 Unsuccessful Implementations:
 -----------------------------
@@ -45,6 +47,7 @@ JavaScript: Creating a game was difficult. I was learning from YouTube, but some
 CSS Flex – Tried to use Flex with my image but probably I don’t understand it to well in order to make it work. 
 
 Accesibility - I wanted the pages to go into a colour blind mode but there were some problems finding sources to help myself.
+
 --------------------
 correcting problems:
 --------------------
