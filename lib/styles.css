@@ -10,7 +10,7 @@ body {
 
 /* navigation */
 header{
-	background: url("images/milky3.jpg");
+	background: url("../images/milky3.jpg");
 	width: 100%;
 	color: #fffffff;
 	top: 0;
@@ -48,7 +48,7 @@ header #logo h2{
 
 #content {
 	overflow: hidden;
-	background: url('images/milky3.jpg') no-repeat 0 -200px;
+	background: url('../images/milky3.jpg') no-repeat 0 -200px;
 }
 
 #content h2{
@@ -121,7 +121,7 @@ header #logo h2{
 	overflow: hidden;
 	font-size:15px;
 	text-align: center;
-	background: url('images/milkyway.jpg');
+	background: url('../images/milkyway.jpg');
 }
 #scroll h5 {
 	font-size: 2em;
@@ -367,12 +367,6 @@ li {
 }
 
 /* NASA POD*/
-.pod {
-	text-align: center;
-	width: 100%;
-	font-size: 17px;
-	background: #064657;
-}
 
 #apod_img_id {
 	width: 100%;
@@ -402,7 +396,7 @@ li {
 
 }
 
-input[type=text], select, textarea {
+#joinUs input[type=text], select, textarea {
 	width: 100%;
 	padding: 10px;
 	border-radius: 3px solid black;
@@ -435,22 +429,33 @@ input[type=submit]:hover {
 	margin: auto;
 }
 
+
+/* css jot animation */
+
 .thanks {
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	background-color: blue;
 	position: relative;
-	
+	border-radius: 70%;
+	line-height: 80px;
+	text-align: center;
 	
 	animation-name: animate;
-	animation-duration: 4s;
-	animation-direction: reverse;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+
+	-webkit-transition: left 0.333s ease-in-out;
 }
 
 @keyframes animate {
-	0% {background-color:red; left:0px; top:0px;}
-	25% {background-color:yellow; left:200px; top:0px;}
-	50% {background-color:blue; left:200px; top:200px;}
-	75% {background-color:green; left:0px; top:200px;}
-	100% {background-color:red; left:0px; top:0px;}
+	0% {background-color:red; left:0px; top:50px;}
+	10% {background-color:yellow; left:100px; top:0px;}
+	20% {background-color:blue; left:200px; top:50px;}
+	30% {background-color:black; left:300px; top:0px;}
+	40% {background-color:green; left:200px; top:160px;}
+	100% {background-color:yellow; left:0px; top:0px;}
+
 }
+
+

@@ -16,7 +16,7 @@ Then it clicked what was something interesting that I wanted to do was space.
 Draft 1 showed what I did but felt like not enough was in there. So i remade the website
 with my past experienced and hopefully draft 2 is better.
 
----------------------------
+
 Successful Implementations:
 ---------------------------
 Scrolling page on index
@@ -36,7 +36,9 @@ I used W3chool to help me when using this effect.
 Text Box JavaScript Validation - This JavaScript allows to validate whether there is text within a text box or not and if not it will show an error.
 I used reference: https://www.w3schools.com/js/js_validation.asp - to help me in my work. I test run it using their server before i implement it in my work.
 
------------------------------
+CSS animation - It was put at the bottom of JOT.html page. Tried to make the animation go into a heart shape.
+
+
 Unsuccessful Implementations:
 -----------------------------
 jQuery – I wanted the user to click on a tab to scroll down to a certain page but found an issue with JavaScript and Index pages.
@@ -48,7 +50,7 @@ CSS Flex – Tried to use Flex with my image but probably I don’t understand it to
 
 Accesibility - I wanted the pages to go into a colour blind mode but there were some problems finding sources to help myself.
 
---------------------
+
 correcting problems:
 --------------------
 
